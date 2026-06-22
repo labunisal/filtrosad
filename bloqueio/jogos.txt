@@ -1,1 +1,4 @@
-
+! FILE: jogos.txt
+! CATEGORY: bloqueio
+! VERSION: 1.0
+! UPDATED: 2026-06-22
