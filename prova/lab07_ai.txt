@@ -3,26 +3,22 @@
 ! VERSION: 1.0
 ! UPDATED: 2026-06-22
 ! ==================================================
-! MODO PROVA - CONTROLE TOTAL DA REDE
+! LAB07 - MODO PROVA
+! Rede: 172.20.70.0/24
 ! ==================================================
+! Permissões
+@@||unisal.br^$client=172.20.70.0/24
+@@||portal.unisal.br^$client=172.20.70.0/24
+@@||unisal.edu.br^$client=172.20.70.0/24
+@@||ava.ead.unisal.br^$client=172.20.70.0/24
+@@||ava.ead.unisal.codely.com.br^$client=172.20.70.0/24
 
-! 🔴 REGRA 2 - BLOQUEIO TOTAL (nega tudo)
-||*^
-! ==================================================
-! 🟢 REGRA 3 - EXCEÇÕES (somente prova funciona)
-! ==================================================
-@@||unisal.br^
-@@||portal.unisal.br^
-@@||unisal.edu.br^
-@@||ava.ead.unisal.br^
-@@||ava.ead.unisal.codely.com.br^
-! 3. --- Dependências e CDN (Essenciais para o site carregar) ---
-@@||safebrowsing.googleapis.com^
-@@||update.googleapis.com^
-@@||codely-unisal.s3.us-east-1.amazonaws.com^
-@@||fonts.gstatic.com^
-@@||google-analytics.com^
-@@||handtalk.me^
-@@||fonts.googleapis.com^
-@@||googletagmanager.com^
-@@||update.googleapis.com^
+@@||fonts.googleapis.com^$client=172.20.70.0/24
+@@||fonts.gstatic.com^$client=172.20.70.0/24
+@@||codely-unisal.s3.us-east-1.amazonaws.com^$client=172.20.70.0/24
+@@||handtalk.me^$client=172.20.70.0/24
+@@||googletagmanager.com^$client=172.20.70.0/24
+@@||google-analytics.com^$client=172.20.70.0/24
+
+! Bloqueio total
+||*^$client=172.20.70.0/24
