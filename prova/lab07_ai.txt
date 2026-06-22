@@ -1,1 +1,28 @@
+! FILE: lab07_ai.txt
+! CATEGORY: bloqueio
+! VERSION: 1.0
+! UPDATED: 2026-06-22
+! ==================================================
+! MODO PROVA - CONTROLE TOTAL DA REDE
+! ==================================================
 
+! 🔴 REGRA 2 - BLOQUEIO TOTAL (nega tudo)
+||*^
+! ==================================================
+! 🟢 REGRA 3 - EXCEÇÕES (somente prova funciona)
+! ==================================================
+@@||unisal.br^
+@@||portal.unisal.br^
+@@||unisal.edu.br^
+@@||ava.ead.unisal.br^
+@@||ava.ead.unisal.codely.com.br^
+! 3. --- Dependências e CDN (Essenciais para o site carregar) ---
+@@||safebrowsing.googleapis.com^
+@@||update.googleapis.com^
+@@||codely-unisal.s3.us-east-1.amazonaws.com^
+@@||fonts.gstatic.com^
+@@||google-analytics.com^
+@@||handtalk.me^
+@@||fonts.googleapis.com^
+@@||googletagmanager.com^
+@@||update.googleapis.com^
