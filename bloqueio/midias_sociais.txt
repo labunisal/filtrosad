@@ -1,4 +1,8 @@
-!REDES SOCIAIS COMUNS
+! FILE: midias_sociais.txt
+! CATEGORY: bloqueio
+! VERSION: 1.0
+! UPDATED: 2026-06-22
+
 ||facebook.com^
 ||instagram.com^
 ||tiktok.com^
