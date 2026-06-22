@@ -7,18 +7,15 @@
 ! Rede: 172.20.70.0/24
 ! ==================================================
 ! Permissões
-@@||unisal.br^$client=172.20.70.0/24
-@@||portal.unisal.br^$client=172.20.70.0/24
-@@||unisal.edu.br^$client=172.20.70.0/24
-@@||ava.ead.unisal.br^$client=172.20.70.0/24
-@@||ava.ead.unisal.codely.com.br^$client=172.20.70.0/24
+@@||unisal.br^
+@@||portal.unisal.br^
+@@||unisal.edu.br^
+@@||ava.ead.unisal.br^
+@@||ava.ead.unisal.codely.com.br^
 
-@@||fonts.googleapis.com^$client=172.20.70.0/24
-@@||fonts.gstatic.com^$client=172.20.70.0/24
-@@||codely-unisal.s3.us-east-1.amazonaws.com^$client=172.20.70.0/24
-@@||handtalk.me^$client=172.20.70.0/24
-@@||googletagmanager.com^$client=172.20.70.0/24
-@@||google-analytics.com^$client=172.20.70.0/24
-
-! Bloqueio total
-||*^$client=172.20.70.0/24
+@@||fonts.googleapis.com^
+@@||fonts.gstatic.com^
+@@||codely-unisal.s3.us-east-1.amazonaws.com^
+@@||handtalk.me^
+@@||googletagmanager.com^
+@@||google-analytics.com^
