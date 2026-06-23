@@ -6,17 +6,19 @@
 ! LAB07 - MODO PROVA
 ! Rede: 172.20.70.0/24
 ! ==================================================
-! Bloqueio total da internet
-||*^
+
+! Bloqueio total da internet (somente para clientes com etiqueta lab07_ai)
+||*^$client=lab07_ai
+
 ! Exceções permitidas (whitelist)
-@@||unisal.br^
-@@||portal.unisal.br^
-@@||unisal.edu.br^
-@@||ava.ead.unisal.br^
-@@||ava.ead.unisal.codely.com.br^
-@@||fonts.googleapis.com^
-@@||fonts.gstatic.com^
-@@||codely-unisal.s3.us-east-1.amazonaws.com^
-@@||handtalk.me^
-@@||googletagmanager.com^
-@@||google-analytics.com^
+@@||unisal.br^$client=lab07_ai
+@@||portal.unisal.br^$client=lab07_ai
+@@||unisal.edu.br^$client=lab07_ai
+@@||ava.ead.unisal.br^$client=lab07_ai
+@@||ava.ead.unisal.codely.com.br^$client=lab07_ai
+@@||fonts.googleapis.com^$client=lab07_ai
+@@||fonts.gstatic.com^$client=lab07_ai
+@@||codely-unisal.s3.us-east-1.amazonaws.com^$client=lab07_ai
+@@||handtalk.me^$client=lab07_ai
+@@||googletagmanager.com^$client=lab07_ai
+@@||google-analytics.com^$client=lab07_ai
