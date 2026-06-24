@@ -5,7 +5,7 @@
 ! ==================================================
 ! LAB07 - MODO PROVA
 ! Rede: 172.20.70.x (IPs individuais)
-! ==================================================
+!==================================================
 !||example.org^$client=192.168.0.0/24
 ! Bloqueio total da internet (somente para clientes específicos)
 
