@@ -6,33 +6,10 @@
 ! LAB07 - MODO PROVA
 ! Rede: 172.20.70.x (IPs individuais)
 ! ==================================================
-
+!||example.org^$client=192.168.0.0/24
 ! Bloqueio total da internet (somente para clientes específicos)
-||*^$client=172.20.70.1
-||*^$client=172.20.70.2
-||*^$client=172.20.70.3
-||*^$client=172.20.70.4
-||*^$client=172.20.70.5
-||*^$client=172.20.70.6
-||*^$client=172.20.70.7
-||*^$client=172.20.70.8
-||*^$client=172.20.70.9
-||*^$client=172.20.70.10
-||*^$client=172.20.70.11
-||*^$client=172.20.70.12
-||*^$client=172.20.70.13
-||*^$client=172.20.70.14
-||*^$client=172.20.70.15
-||*^$client=172.20.70.16
-||*^$client=172.20.70.17
-||*^$client=172.20.70.18
-||*^$client=172.20.70.19
-||*^$client=172.20.70.20
-||*^$client=172.20.70.21
-||*^$client=172.20.70.22
-||*^$client=172.20.70.23
-||*^$client=172.20.70.24
-||*^$client=172.20.70.25
+
+||*^$client=172.20.70.0/24
 
 
 ! Exceções permitidas (whitelist)
