@@ -1,11 +1,3 @@
-! FILE: lab07_ai.txt
-! CATEGORY: bloqueio
-! VERSION: 1.0
-! UPDATED: 2026-06-23
-! ==================================================
-! LAB07 - MODO PROVA
-! Rede: 172.20.70.x (IPs individuais)
-!==================================================
 uniserver1.local
 .uniserver1.local
 portal.unisal.br
