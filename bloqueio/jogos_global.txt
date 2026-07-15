@@ -109,5 +109,65 @@ gog.com
 # ITCH.IO
 ############################################################
 
+############################################################
+# BROWSER GAMES
+############################################################
+
+poki.com
+.poki.com
+
+crazygames.com
+.crazygames.com
+
+y8.com
+.y8.com
+
+friv.com
+.friv.com
+
+miniclip.com
+.miniclip.com
+
+kongregate.com
+.kongregate.com
+
+armorgames.com
+.armorgames.com
+
+addictinggames.com
+.addictinggames.com
+
+gamepix.com
+.gamepix.com
+
+############################################################
+# XBOX
+############################################################
+
+xbox.com
+.xbox.com
+
+xboxlive.com
+.xboxlive.com
+
+############################################################
+# PLAYSTATION
+############################################################
+
+playstation.com
+.playstation.com
+
+playstation.net
+.playstation.net
+
+############################################################
+# NINTENDO
+############################################################
+
+nintendo.com
+.nintendo.com
+
+
+
 itch.io
 .itch.io
