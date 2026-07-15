@@ -1,4 +1,113 @@
-! FILE: jogos.txt
-! CATEGORY: bloqueio
-! VERSION: 1.0
-! UPDATED: 2026-06-22
+############################################################
+# UNISAL DNS FILTER
+# Arquivo : jogos_global.txt
+# Objetivo:
+# Bloquear plataformas, launchers, jogos online,
+# jogos em navegador e serviços relacionados.
+############################################################
+
+############################################################
+# ROBLOX
+############################################################
+
+roblox.com
+.roblox.com
+rbxcdn.com
+.rbxcdn.com
+rbx.com
+.rbx.com
+robloxapi.com
+.robloxapi.com
+
+############################################################
+# STEAM
+############################################################
+
+steampowered.com
+.steampowered.com
+steamcommunity.com
+.steamcommunity.com
+steamstatic.com
+.steamstatic.com
+steamcdn-a.akamaihd.net
+help.steampowered.com
+store.steampowered.com
+
+############################################################
+# EPIC GAMES
+############################################################
+
+epicgames.com
+.epicgames.com
+unrealengine.com
+.unrealengine.com
+fortnite.com
+.fortnite.com
+
+############################################################
+# RIOT GAMES
+############################################################
+
+riotgames.com
+.riotgames.com
+leagueoflegends.com
+.leagueoflegends.com
+valorant.com
+.valorant.com
+
+############################################################
+# MINECRAFT
+############################################################
+
+minecraft.net
+.minecraft.net
+mojang.com
+.mojang.com
+
+############################################################
+# BLIZZARD / BATTLE.NET
+############################################################
+
+battle.net
+.battle.net
+blizzard.com
+.blizzard.com
+
+############################################################
+# EA
+############################################################
+
+ea.com
+.ea.com
+origin.com
+.origin.com
+
+############################################################
+# UBISOFT
+############################################################
+
+ubisoft.com
+.ubisoft.com
+ubi.com
+.ubi.com
+
+############################################################
+# ROCKSTAR
+############################################################
+
+rockstargames.com
+.rockstargames.com
+
+############################################################
+# GOG
+############################################################
+
+gog.com
+.gog.com
+
+############################################################
+# ITCH.IO
+############################################################
+
+itch.io
+.itch.io
