@@ -9,14 +9,14 @@
 # OPENAI
 ############################################################
 
-#chatgpt.com
-#.chatgpt.com
-#openai.com
-#.openai.com
-#oaistatic.com
-#.oaistatic.com
-#oaiusercontent.com
-#.oaiusercontent.com
+# chatgpt.com
+# .chatgpt.com
+# openai.com
+# .openai.com
+# oaistatic.com
+# .oaistatic.com
+# oaiusercontent.com
+# .oaiusercontent.com
 
 ############################################################
 # GOOGLE GEMINI
